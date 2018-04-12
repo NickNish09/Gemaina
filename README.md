@@ -5,7 +5,7 @@ Gema utilizada para gerar features para o Cucumber utilizando o rails generate
 **Instalação:**  
 adicione  
 ```
-gem 'genainerator', '~> 0.2'  
+gem 'genainerator', '~> 1.0'  
 ```
 ao seu gemfile e
 execute  
@@ -30,3 +30,8 @@ E também criar ela numa pasta específica, para melhor organização, com o par
 ```
 rails generate feature list_movies --folder movies  
 ```
+Você pode utilizar o parâmetro --scaffold para gerar os cenários de CRUD:
+```
+rails generate feature movies --scaffold  
+```
+Isso irá gerar os cenários para index,create,show,edit e delete
