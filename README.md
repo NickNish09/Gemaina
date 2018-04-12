@@ -2,7 +2,7 @@
 
 Gema utilizada para gerar features para o Cucumber utilizando o rails generate
 
-**Instalação:**
+**Instalação:**  
 adicione  
 ```
 gem 'genainerator', '~> 0.2'  
@@ -12,7 +12,7 @@ execute
 ```
 $ bundle install
 ```
-**Uso básico:**
+**Uso básico:**  
 Com a Gemaina instalada você pode gerar os arquivos das features mais rapidamente com o rails generator feature.
 Por exemplo, uma feature de list filmes seria criada com:  
  ```
