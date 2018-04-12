@@ -2,7 +2,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "genainerator"
-  s.version     = "0.1"
+  s.version     = "0.2"
   s.platform    = "ruby"
   s.authors     = ["Nicholas Marques"]
   s.email       = ["nnmarques97@gmail.com"]
@@ -11,6 +11,6 @@ Gem::Specification.new do |s|
   s.description = %q{This generator will create a .feature file and a _steps.rb file related to the given feature, in any language you want}
   s.files = Dir.glob("{lib}/**/*")
   s.require_path = 'lib'
-  s.add_development_dependency 'rails', '~> 3.2.0'
-  s.add_development_dependency 'cucumber-rails'
+  s.add_development_dependency 'rails', '>= 3.2.0'
+  s.add_development_dependency 'cucumber-rails', '>= 0'
 end
