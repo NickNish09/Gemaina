@@ -2,7 +2,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "genainerator"
-  s.version     = "0.2"
+  s.version     = "1.0"
   s.platform    = "ruby"
   s.authors     = ["Nicholas Marques"]
   s.email       = ["nnmarques97@gmail.com"]
