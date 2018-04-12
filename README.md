@@ -5,7 +5,7 @@ Gema utilizada para gerar features para o Cucumber utilizando o rails generate
 **Instalação:**  
 adicione  
 ```
-gem 'genainerator', '~> 1.0'  
+gem 'gemaina', '~> 1.0'  
 ```
 ao seu gemfile e
 execute  
