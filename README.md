@@ -32,6 +32,6 @@ rails generate feature list_movies --folder movies
 ```
 Você pode utilizar o parâmetro --scaffold para gerar os cenários de CRUD:
 ```
-rails generate feature movies --scaffold  
+rails generate feature movie --scaffold  #nome da feature no singular
 ```
 Isso irá gerar os cenários para index,create,show,edit e delete
