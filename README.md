@@ -7,7 +7,7 @@ adicione
 ```
 gem 'genainerator', '~> 0.2'  
 ```
-ao seu gemfile
+ao seu gemfile e
 execute  
 ```
 $ bundle install
@@ -18,8 +18,8 @@ Por exemplo, uma feature de list filmes seria criada com:
  ```
  rails generate feature list_movies
  ```
-  #Cria o arquivo list_movies.feature na pasta features do cucumber  
-  #Cria o arquivo list_movies_steps.rb na pasta features/step_definitions do cucumber  
+  - Cria o arquivo list_movies.feature na pasta features do cucumber  
+  - Cria o arquivo list_movies_steps.rb na pasta features/step_definitions do cucumber  
   
 **Parâmetros:**  
 Você pode criar as features também em outras linguagens (padrão é o inglês), como por exemplo em português, passando o parâmetro --language e a sigla da linguagem:  
